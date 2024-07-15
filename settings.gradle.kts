@@ -19,6 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Lista Contatos"
+rootProject.name = "Lista de contatos"
 include(":app")
- 

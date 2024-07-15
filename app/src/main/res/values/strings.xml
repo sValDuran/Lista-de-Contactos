@@ -4,5 +4,6 @@
     <string name="hint_contact_name">Nome do Contato</string>
     <string name="hint_contact_phonenumber">Número do telefone</string>
     <string name="btn_dialog_save">Salvar</string>
-    <string name="btn_dialog_cancel"></string>
+    <string name="btn_dialog_cancel">Cancelar</string>
 </resources>
+

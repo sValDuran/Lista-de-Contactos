@@ -4,17 +4,23 @@ plugins {
 }
 
 android {
-    namespace = "com.example.listacontatos"
+    namespace = "br.edu.ifsp.dmo.listadecontatos"
     compileSdk = 34
 
+    viewBinding{
+        enable = true
+    }
+
     defaultConfig {
-        applicationId = "com.example.listacontatos"
+        applicationId = "br.edu.ifsp.dmo.listadecontatos"
         minSdk = 28
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+
+
     }
 
     buildTypes {
