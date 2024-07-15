@@ -9,7 +9,7 @@ import br.edu.ifsp.dmo.listadecontatos.R
 import br.edu.ifsp.dmo.listadecontatos.databinding.ContactItemLayoutBinding
 import br.edu.ifsp.dmo.listadecontatos.model.Contact
 
-class ListContactAdapter(context: Context, data: List<Contact>) : ArrayAdapter<Contact>(context, R.layout.contact_item_layout, data.sortedBy { it.name }) {
+class ListContactAdapter(context: Context, data: List<Contact>) : ArrayAdapter<Contact>(context, R.layout.contact_item_layout, data){//.sortedBy { it.name }) {
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
 
         val binding: ContactItemLayoutBinding

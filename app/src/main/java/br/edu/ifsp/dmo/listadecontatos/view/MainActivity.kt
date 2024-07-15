@@ -95,6 +95,7 @@ class MainActivity : AppCompatActivity(), OnItemClickListener {
     }
 
     private fun handleNewContactDialog(){
+
         val bindingDialog = NewContactDialogBinding.inflate(layoutInflater)
 
         val builderDialog = AlertDialog.Builder(this)
